@@ -1,0 +1,119 @@
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  margin: 10rem;
+}
+
+.main {
+  width: 80%;
+  display: flex;
+}
+
+.info {
+  margin-left: 20rem;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  justify-content: space-between;
+}
+
+.names button {
+  position: relative;
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px 15px; /* Добавьте немного отступов для кнопки */
+}
+
+.names button:hover {
+  opacity: 0.4;
+}
+
+
+
+.duties {
+  margin-bottom: 1rem;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.data h1 {
+  margin-top: 0;
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 100% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.data-name {
+  display: inline-flex;
+  padding: 6px 13.27px 6px 12px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #cbd5e1;
+  color: #334155;
+}
+
+.data-data {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: 1px;
+  margin-top: 12px;
+  margin-bottom: 2rem;
+}
+
+
+.duties {
+  position: relative;
+  margin-bottom: 1rem;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.duties::before {
+  content: ">"; /* Добавляем символ ">>" */
+  position: absolute;
+  top: 9px;
+  left: -52px; /* Расположение символа справа от элемента */
+  font-size: 20px; /* Размер символа */
+  color: #14b8a6;
+}
+
+.pseudo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px; /* Расположение линии слева от кнопки */
+  height: 100%;
+  width: 2px; /* Ширина вертикальной линии */
+  background-color: #14b8a6; /* Цвет вертикальной линии */
+}
