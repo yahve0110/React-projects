@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+main {
+  width: 40rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+  margin-top: 7rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #0f172a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.008px; /* 100.032% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.input-text {
+  width: 316px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  padding-left: 30px;
+}
+.toInput {
+  margin-bottom: 3rem;
+}
+.add-btn {
+  display: inline-flex;
+  padding: 7px 20px;
+  align-items: flex-start;
+  border-radius: 0px 4px 4px 0px;
+  background: #06b6d4;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border: transparent;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.content {
+  width: 520px;
+  margin: 0 auto;
+  margin-left: 5rem;
+
+  color: #0f172a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.task {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.isCompleted {
+  margin-right: 15px;
+}
+
+.deleteTask {
+  display: inline-flex;
+  height: 13px;
+  padding: 7px 4px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #222;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 13px; /* 108.333% */
+letter-spacing: 1px;
+text-transform: capitalize;
+cursor: pointer;
+}
+
